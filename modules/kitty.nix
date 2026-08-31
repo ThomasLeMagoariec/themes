@@ -6,7 +6,7 @@ in
   config = lib.mkIf config.programs.kitty.enable {
     programs.kitty.settings = {
       foreground              = c.foreground;
-      background               = "#FF0000";
+      background               = c.background;
       selection_foreground     = c.selectionForeground;
       selection_background     = c.selectionBackground;
 
