@@ -20,7 +20,7 @@ in
 	config.theme.colors = lib.mkDefault (
 		{
 			sakura-reflection = {
-				foreground             = "e5d4e8";
+				foreground             = "#e5d4e8";
 				background              = "10131f";
 				selectionForeground   = "10131f";
 				selectionBackground    = "e0b3d6";
