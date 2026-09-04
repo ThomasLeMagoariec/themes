@@ -50,33 +50,30 @@ in
 			catppuccin = {
 				foreground              = "cdd6f4";
 				background              = "1e1e2e";
-				selection_foreground    = "1e1e2e";
-				selection_background    = "f5e0dc";
+				selectionForeground    = "1e1e2e";
+				selectionBackground    = "f5e0dc";
 
 				cursor                   = "f5e0dc"; 
-				cursor_text_color        = "1e1e2e";
+				cursorText 	= "1e1e2e";
 
-				url_color               = "f5e0dc";
+				urlColor               = "f5e0dc";
 
-				active_border_color     = "b4befe";
-				inactive_border_color   = "6c7086";
-				bell_border_color       = "f9e2af";
+				activeBorder     = "b4befe";
+				inactiveBorder= "6c7086";
+				bellBorder= "f9e2af";
 
-				wayland_titlebar_color = "system";
-				macos_titlebar_color  = "system";
+				activeTabForeground = "11111b";
+				activeTabBackground= "cba6f7";
+				inactiveTabForeground= "cdd6f4";
+				inactiveTabBackground= "181825";
+				tabBarBackground= "11111b";
 
-				active_tab_foreground   = "11111b";
-				active_tab_background  = "cba6f7";
-				inactive_tab_foreground = "cdd6f4";
-				inactive_tab_background = "181825";
-				tab_bar_background      = "11111b";
-
-				mark1_foreground = "1e1e2e";
-				mark1_background = "b4befe";
-				mark2_foreground = "1e1e2e";
-				mark2_background = "cba6f7";
-				mark3_foreground = "1e1e2e";
-				mark3_background = "74c7ec";
+				mark1Foreground= "1e1e2e";
+				mark1Background= "b4befe";
+				mark2Foreground= "1e1e2e";
+				mark2Background= "cba6f7";
+				mark3Foreground= "1e1e2e";
+				mark3Background= "cba6f7";
 			};
 		}
 		.${cfg.name}
