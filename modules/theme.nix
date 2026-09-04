@@ -56,7 +56,7 @@ in
 				cursor                   = "f5e0dc"; 
 				cursorText 	= "1e1e2e";
 
-				urlColor               = "f5e0dc";
+				url               = "f5e0dc";
 
 				activeBorder     = "b4befe";
 				inactiveBorder= "6c7086";
